@@ -1,7 +1,7 @@
-package ru.practicum.repository;
+package ru.practicum.stats.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.practicum.model.EndpointHit;
+import ru.practicum.stats.model.EndpointHit;
 
 import java.util.List;
 

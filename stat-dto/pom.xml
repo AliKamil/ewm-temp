@@ -9,9 +9,6 @@
 
 
     <artifactId>stat-dto</artifactId>
-    <version>1</version>
-    <packaging>jar</packaging>
-
     <name>stat-dto</name>
 
 
@@ -37,27 +34,4 @@
 
 
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                            <version>1.18.32</version>
-                        </path>
-                        <path>
-                            <groupId>org.mapstruct</groupId>
-                            <artifactId>mapstruct-processor</artifactId>
-                            <version>1.6.0.Beta1</version>
-                        </path>
-                    </annotationProcessorPaths>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>

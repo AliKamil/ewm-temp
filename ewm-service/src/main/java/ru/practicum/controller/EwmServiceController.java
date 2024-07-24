@@ -1,4 +1,4 @@
-package ru.practicum;
+package ru.practicum.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import ru.practicum.clients.StatClient;
-import ru.practicum.modelDto.EndpointHitInDto;
-import ru.practicum.modelDto.EndpointHitOutDto;
+import ru.practicum.dto.EndpointHitInDto;
+import ru.practicum.dto.EndpointHitOutDto;
 
 import java.util.List;
 

@@ -5,8 +5,8 @@ import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import ru.practicum.modelDto.EndpointHitInDto;
-import ru.practicum.modelDto.EndpointHitOutDto;
+import ru.practicum.dto.EndpointHitInDto;
+import ru.practicum.dto.EndpointHitOutDto;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;

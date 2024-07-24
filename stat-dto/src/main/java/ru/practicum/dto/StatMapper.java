@@ -1,8 +1,7 @@
-package ru.practicum;
+package ru.practicum.dto;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
-import ru.practicum.modelDto.EndpointHitInDto;
 
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE,

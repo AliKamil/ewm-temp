@@ -9,8 +9,6 @@
     </parent>
 
     <artifactId>stat-client</artifactId>
-    <version>1</version>
-    <packaging>jar</packaging>
 
     <name>stat-client</name>
 
@@ -35,17 +33,8 @@
         <dependency>
             <groupId>ru.practicum</groupId>
             <artifactId>stat-dto</artifactId>
-            <version>1</version>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>
